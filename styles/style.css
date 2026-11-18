@@ -1,8 +1,20 @@
-# {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu-item {
+  border-bottom: 1px solid;
+}
+#item-10 {
+  border-bottom: unset;
+}
+a[href*="fase"] {
+  color: red;
+}
+a[href^="http"] {
+  color: red;
+}
+img[src$=".jpg"] {
+  display: none;
 }
